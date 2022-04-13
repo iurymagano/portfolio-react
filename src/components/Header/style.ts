@@ -1,18 +1,24 @@
 import styled from "styled-components";
 
-export const Container = styled.header`
+export const NavBox = styled.header`
+  width: 100%;
+  padding: 1rem 0;
+
+  background: #121214;
+  border-bottom: 1px solid #21262d;
+  position: fixed;
+`;
+
+export const Container = styled.div`
   max-width: 1120px;
   margin: 0 auto;
 `;
 
 export const Content = styled.div`
-  height: 5rem;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
-  position: relative;
+  
 
   .logo {
     font-size: 2rem;

@@ -13,8 +13,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #121218;
+    background: #111111;
     color: #fff;
+
+    scroll-behavior: smooth;
 
     font-family: 'Roboto', sans-serif;
   }
