@@ -7,6 +7,7 @@ export const NavBox = styled.header`
   background: #121214;
   border-bottom: 1px solid #21262d;
   position: fixed;
+  z-index: 999;
 `;
 
 export const Container = styled.div`
