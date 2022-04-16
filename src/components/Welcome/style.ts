@@ -16,8 +16,7 @@ export const Content = styled.div`
     width: 400px;
     margin-right: 6rem;
 
-    border-radius:250px 250px 250px 250px;
-    box-shadow: 1px 1px 10px 1px #ffffff;
+    border-radius:270px 270px 270px 270px;
     background: var(--roxo-600);
 
     animation: profile-effect 2s infinite alternate-reverse linear;

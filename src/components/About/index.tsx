@@ -2,7 +2,7 @@ import { Container, Content } from "./style"
 
 export const About = () => {
   return (
-    <Container id="about">
+    <Container  id="about">
       <Content>
         <h1>Sobre mim</h1>
         <div className="about-box">

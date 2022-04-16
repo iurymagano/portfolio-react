@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   max-width: 1120px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 2rem 1rem;
 `;
 
 export const Content = styled.div`
@@ -13,7 +13,7 @@ export const Content = styled.div`
   h1 {
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }    
 
   .about-box {
