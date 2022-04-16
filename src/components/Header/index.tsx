@@ -1,5 +1,7 @@
 import { Container, Content, NavBox } from "./style"
 
+import { FiMenu } from 'react-icons/fi'
+
 export const Header = () => {
 	return (
 		<NavBox>
@@ -13,6 +15,7 @@ export const Header = () => {
               <a href="#projetos">Projetos</a>
               <a href="">Conhecimentos</a>
               <a href="">Contato</a>
+              <FiMenu className="menu" />
             </nav>
           </div>
         </Content>

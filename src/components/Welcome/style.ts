@@ -46,4 +46,54 @@ export const Content = styled.div`
     color: #ffffff;
     text-shadow: 10px 10px 10px var(--roxo-600);
   }
-`;
+
+
+  @media (max-width: 1025px) {
+    padding: 2rem;
+    img {
+      width: 350px;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    span {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh);
+
+    img {
+      width: 400px;
+      margin: 0;
+    }
+
+    .welcome-text {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+  }
+
+  @media (max-width: 426px) {
+    img {
+      width: 300px;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    span {
+      font-size: 1.5rem;
+    }
+  }
+  
+ `;

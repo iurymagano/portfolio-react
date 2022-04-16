@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   max-width: 1120px;
   margin: 0 auto;
+  padding: 0 1rem;
 `;
 
 
@@ -27,7 +28,18 @@ export const Content = styled.div`
       height: 487px;
       background: #32323232;
       border-radius: 8px;
+      filter: brightness(0.7);
+      
 
+      &:hover {
+        filter: brightness(1);
+        transition: 1s;
+      }
+        &:hover img {
+          transform: scale(1.1);
+          transition: 1s;
+          
+    }
       
       .white {
         background: var(--roxo-600);
@@ -105,5 +117,20 @@ export const Content = styled.div`
           }
         }
       }
+    }
+
+    @media (max-width: 426px) {
+      .titulo_projetos {
+        font-size: 2rem;
+      }
+
+      .card {
+        width: 320px;
+      }
+
+      .text {
+        padding: 1rem;
+      }
+
     }
 `;

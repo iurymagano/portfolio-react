@@ -58,7 +58,22 @@ export const Content = styled.div`
     100% {
         transform: rotate(350deg);
     }
+  }
 }
+
+@media (max-width: 426px) {
+  margin: 0;
+  h1 {
+    padding: 0;
+    font-size: 2rem;
+  }
+
+  .about-box {
+    padding: 2.2rem;
+    p {
+      font-size: 1rem;
+    }
+  }
 
 }
 

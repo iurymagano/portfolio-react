@@ -13,6 +13,7 @@ export const NavBox = styled.header`
 export const Container = styled.div`
   max-width: 1120px;
   margin: 0 auto;
+  padding: 0 1rem;
 `;
 
 export const Content = styled.div`
@@ -61,6 +62,24 @@ export const Content = styled.div`
     &:last-child {
       margin-right: 1rem;
     }
+  }
+
+  .menu {
+    display: none;
+  }
+
+  @media(max-width: 426px) {
+    
+    a {
+      display: none;
+      
+      
+    }
+    .menu {
+      display: flex;
+      font-size: 2rem;
+    }
+
   }
   
 `;
